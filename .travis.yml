@@ -23,11 +23,11 @@ before_script:
  - mkdir -p client-api/cxx/examples/build
  - cmake --version
  - (cd viewer/build && cmake ..)
- - (cd client-api/cxx/examples/build && cmake ..)
+ - (cd client-api/C++/examples/build && cmake ..)
 
 script:
  - make -C viewer/build
- - make -C client-api/cxx/examples/build
+ - make -C client-api/C++/examples/build
 
 os:
  - linux
