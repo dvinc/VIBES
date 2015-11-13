@@ -20,7 +20,7 @@ install:
 
 before_script:
  - mkdir -p viewer/build
- - mkdir -p client-api/cxx/examples/build
+ - mkdir -p client-api/C++/examples/build
  - cmake --version
  - (cd viewer/build && cmake ..)
  - (cd client-api/C++/examples/build && cmake ..)
